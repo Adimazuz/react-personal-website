@@ -18,11 +18,6 @@ function Experience_section(props) {
     backgroundColor: props.color,
   };
 
-  const p_style = {
-    margin: "0%",
-    padding: "1 rem",
-  };
-
   return (
     <div id="experience" class="container rounded section" style={div_style}>
       <h1>Experience</h1>

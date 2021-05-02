@@ -1,5 +1,4 @@
 import React from "react";
-import MyNav from "./MyNav";
 
 export default function Imagedsection(props) {
   const t_style = {
@@ -21,6 +20,7 @@ export default function Imagedsection(props) {
             href="../res/CV_Adi_Mazuz_2020_w.pdf"
             download="CV_Adi_Mazuz.pdf"
             class="btn btn-primary my-btn btn-danger my-button "
+            rel="noopener noreferrer"
           >
             <i class="far fa-file-alt"></i> My CV
           </a>
@@ -29,6 +29,7 @@ export default function Imagedsection(props) {
             href="https://www.linkedin.com/in/adi-mazuz/"
             class="btn btn-primary my-button"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="fab fa-linkedin"></i> Linkdin
           </a>
@@ -36,6 +37,7 @@ export default function Imagedsection(props) {
             href="https://github.com/Adimazuz"
             class="btn btn-dark my-button"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="fab fa-github"></i> Github
           </a>
