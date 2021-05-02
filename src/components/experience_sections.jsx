@@ -19,9 +19,16 @@ function Experience_section(props) {
   };
 
   return (
-    <div id="experience" class="container rounded section" style={div_style}>
+    <div id="experience" class="container my-rounded section" style={div_style}>
       <h1>Experience</h1>
-      {experience_data.map(createExperinceEntry)}
+      <p>
+        All The Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id
+        neque aliquam vestibulum morbi. Et ligula ullamcorper malesuada proin
+        libero. In massa tempor nec feugiat nisl pretium fusce. Sed adipiscing
+        diam donec adipiscing tristique risus.
+      </p>
+      {/* {experience_data.map(createExperinceEntry)} */}
     </div>
   );
 }

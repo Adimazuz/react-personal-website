@@ -4,6 +4,8 @@ import Section from "./components/Section";
 import Footer from "./components/Footer";
 import Imagedsection from "./components/ImagedSection";
 import ExperienceSection from "./components/experience_sections";
+import Skillssection from "./components/SkillsSection";
+import SkillEntry from "./components/skillEntry";
 
 function App() {
   return (
@@ -20,14 +22,9 @@ function App() {
       />
       <hr class="my-hr" />
       <ExperienceSection color="#a6e3e9" />
-
       <hr class="my-hr" />
-      <Section
-        id="skills"
-        color="#cbf1f5"
-        header="Skills"
-        text="All The Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa id neque aliquam vestibulum morbi. Et ligula ullamcorper malesuada proin libero. In massa tempor nec feugiat nisl pretium fusce. Sed adipiscing diam donec adipiscing tristique risus."
-      />
+      <Skillssection color="#a6e3e9" />
+
       <hr class="my-hr" />
       <Section
         id="projects"
