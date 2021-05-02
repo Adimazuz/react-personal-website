@@ -1,4 +1,4 @@
-import ExperienceEntry from "./Experience_entry";
+// import ExperienceEntry from "./Experience_entry";
 // import experience_data from "../data/experince_data";
 
 // function createExperinceEntry(entry) {
