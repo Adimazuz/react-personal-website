@@ -80,7 +80,7 @@ p {
   background-color: var(--body-color);
 }
 
-.navbar-nav {
+/* .navbar-nav {
   float: none;
   margin: 0 auto;
   display: block;
@@ -90,10 +90,10 @@ p {
 .navbar-nav > li {
   display: inline-block;
   float: none;
-}
+} */
 
 .my-button {
   margin: 1rem;
   position: relative;
-  top: 3rem;
+  top: 4rem;
 }
