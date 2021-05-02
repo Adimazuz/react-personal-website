@@ -1,5 +1,5 @@
 import ExperienceEntry from "./Experience_entry";
-import experience_data from "../data/experince_data";
+// import experience_data from "../data/experince_data";
 
 function createExperinceEntry(entry) {
   return (
@@ -14,9 +14,9 @@ function createExperinceEntry(entry) {
 }
 
 function Experience_section(props) {
-  const div_style = {
-    backgroundColor: props.color,
-  };
+  //   const div_style = {
+  //     backgroundColor: props.color,
+  //   };
 
   return (
     <div id="experience" class="container my-rounded section" style={div_style}>

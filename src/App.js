@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Imagedsection from "./components/ImagedSection";
 import ExperienceSection from "./components/experience_sections";
 import Skillssection from "./components/SkillsSection";
-import SkillEntry from "./components/skillEntry";
 
 function App() {
   return (
