@@ -14,7 +14,7 @@ function MyNav(props) {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-center order-2 "
+          class="collapse navbar-collapse justify-content-center order-2"
           id="navbarNavAltMarkup"
         >
           <ul class="navbar-nav  ">
@@ -39,7 +39,12 @@ function MyNav(props) {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#projects">
+              <a
+                class="nav-link "
+                href="#projects"
+                data-toggle="collapse"
+                data-target=".in"
+              >
                 Projects
               </a>
             </li>{" "}
