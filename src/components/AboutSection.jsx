@@ -11,7 +11,7 @@ function AboutSection(props) {
   };
 
   return (
-    <div class="container my-rounded section" id={props.id} style={div_style}>
+    <div id="about" class="container my-rounded section" style={div_style}>
       <h1>About</h1>
       <img
         src="res/me.jpg"
