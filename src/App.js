@@ -1,6 +1,5 @@
 import "./App.css";
 import MyNav from "./components/MyNav";
-import Section from "./components/AboutSection";
 import Footer from "./components/Footer";
 import Imagedsection from "./components/ImagedSection";
 import ExperienceSection from "./components/experience_sections";
