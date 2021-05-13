@@ -13,11 +13,10 @@ export default function ProjectsSection(props) {
         <div className="container">
           <ProjectEntry
             title="Auto RaceCar"
-            description="All The Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Massa id neque aliquam vestibulum morbi. Et ligula
-            ullamcorper malesuada proin libero. In massa tempor nec feugiat
-            nisl pretium fusce."
+            description="C++ based project, ground up architecture, Using Arduino for
+            sensors control, definition and implementation of communication and control APIs,
+            controlled remotely using TCP/UDP, integrating between different sensors, programed on a
+            Linux OS"
             link="https://github.com/Adimazuz/AutoRaceCar"
             img="res/auto-racecar.jpeg"
           />
@@ -25,11 +24,9 @@ export default function ProjectsSection(props) {
 
           <ProjectEntry
             title="Improved object detection"
-            description="All The Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Massa id neque aliquam vestibulum morbi. Et ligula
-            ullamcorper malesuada proin libero. In massa tempor nec feugiat
-            nisl pretium fusce."
+            description="Python based project, created a smart system to choose
+            bounding boxes for object localization using scikit and Deep learning algorithms YOLO/
+            Masked-RCNN, creating and preprocessing datasets, analyzing results"
             link="https://github.com/DimaKolt/YoloAndmRCNN"
             img="res/od.png"
           />
@@ -39,9 +36,7 @@ export default function ProjectsSection(props) {
             title="This Website"
             description="All The Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Massa id neque aliquam vestibulum morbi. Et ligula
-            ullamcorper malesuada proin libero. In massa tempor nec feugiat
-            nisl pretium fusce."
+            aliqua. Massa id neque aliquam vestibulum morbi."
             link="https://github.com/Adimazuz/react-personal-website"
             img="res/placeholder.jpeg"
           />

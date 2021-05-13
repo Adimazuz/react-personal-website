@@ -19,16 +19,16 @@ export default function ExperienceEntry(props) {
 
         <div className="col-md-8 my-text-left">
           <strong>{props.title}</strong>
-          <p>{props.description}</p>
+          <p className="no-pad-left">
+            {props.description}
+            {props.bullets && props.bullets.map((number) => <li>{number}</li>)}
+          </p>
           {props.link && (
             <a href={props.link} target="_blank" rel="noopener noreferrer">
               <i className="fas fa-link icon-margin darker-color"> </i>
             </a>
           )}
-          <i
-            className="fas fa-map-marker-alt icon-margin darker-color"
-            color="red"
-          ></i>{" "}
+          <i className="fas fa-map-marker-alt icon-margin darker-color"></i>{" "}
           {props.location}
         </div>
       </div>
