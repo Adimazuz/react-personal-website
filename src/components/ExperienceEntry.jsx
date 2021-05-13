@@ -25,7 +25,11 @@ export default function ExperienceEntry(props) {
               <i class="fas fa-link icon-margin "> </i>
             </a>
           )}
-          <i class="fas fa-map-marker-alt icon-margin"></i> {props.location}
+          <i
+            class="fas fa-map-marker-alt icon-margin darker-color"
+            color="red"
+          ></i>{" "}
+          {props.location}
         </div>
       </div>
     </>

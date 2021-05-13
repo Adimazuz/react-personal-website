@@ -34,6 +34,9 @@ h3 {
   padding: 1remgi;
 }
 
+.darker-color {
+  color: var(--footer-color);
+}
 .my-hr {
   border: dotted var(--footer-color) 0.4rem;
   border-bottom: none;
