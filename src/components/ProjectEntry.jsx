@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectEntry(props) {
   return (
-    <div className="row ">
+    <div className="row div-margin">
       <div className="col-md-4">
         <img src={props.img} alt={props.img} className="project-image" />
       </div>
