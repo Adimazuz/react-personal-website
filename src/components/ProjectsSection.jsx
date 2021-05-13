@@ -6,8 +6,8 @@ export default function ProjectsSection(props) {
   };
   return (
     <>
-      <div id="projects" class="container my-rounded section" style={div_style}>
-        <h1>Projects</h1>
+      <div class="container my-rounded section" style={div_style}>
+        <h1 id="projects">Projects</h1>
 
         <div class="container">
           <div class="row ">
@@ -18,7 +18,7 @@ export default function ProjectsSection(props) {
                 class="logo-image"
               />
             </div>
-            <div class="col-md-8 my-text-left">
+            <div class="col-md-8 my-text-left ">
               <h4> project title</h4>
               <p class="no-pad-left">
                 All The Lorem ipsum dolor sit amet, consectetur adipiscing elit,

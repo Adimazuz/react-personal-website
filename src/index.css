@@ -6,7 +6,6 @@
 body {
   margin: 200;
   padding: 0;
-
   font-family: -apple-system, BlinkMacSystemFont,
     " Open Sans, sans-serif ,Segoe UI", "Roboto", "Oxygen", "Ubuntu",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -21,8 +20,10 @@ code {
 }
 
 p {
+  font-family: "Lato", sans-serif;
   margin: 0%;
   padding: 1rem;
+  font-size: 0.9rem;
 }
 
 h1 {
@@ -32,6 +33,15 @@ h1 {
 h3 {
   padding: 1remgi;
 }
+
+span {
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* hr {
+  margin: 2rem;
+} */
 .my-hr {
   border: dotted var(--footer-color) 0.4rem;
   border-bottom: none;
@@ -87,18 +97,6 @@ h3 {
   background-color: var(--body-color);
 }
 
-/* .navbar-nav {
-  float: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.navbar-nav > li {
-  display: inline-block;
-  float: none;
-} */
-
 .my-button {
   margin: 1rem;
   position: relative;
@@ -108,6 +106,7 @@ h3 {
 .bullet-logo {
   width: 15%;
   height: 100%;
+  margin: 0.2rem;
 }
 
 .my-rounded {
@@ -120,4 +119,14 @@ h3 {
 
 .no-pad-left {
   padding-left: 0;
+}
+
+.education-sub-heading {
+  padding-left: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.div-margin {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }

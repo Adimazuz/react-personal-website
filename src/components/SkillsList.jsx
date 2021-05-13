@@ -16,6 +16,9 @@ export default function Skillslist(props) {
           img="res/android-image.png"
         />
         <SkillEntry text="C++" alt="cpp-img" img="res/cpp-image.png" />
+        <SkillEntry text="Git" alt="git-img" img="res/git-img.png" />
+        <SkillEntry text="OOP" alt="oop-img" img="res/oop-img.png" />
+        <SkillEntry text="Clean Code " alt="cc-img" img="res/cc-img.png" />
       </div>
     </>
   );

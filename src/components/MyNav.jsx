@@ -1,7 +1,10 @@
 function MyNav(props) {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top my-nav">
+      <nav
+        class="navbar navbar-expand-lg navbar-light sticky-top my-nav"
+        role="navigation"
+      >
         <button
           class="navbar-toggler"
           type="button"
