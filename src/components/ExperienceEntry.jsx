@@ -1,8 +1,5 @@
 import React from "react";
 
-function createLI(text) {
-  return <li>{text}</li>;
-}
 export default function ExperienceEntry(props) {
   return (
     <>
