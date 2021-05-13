@@ -17,11 +17,12 @@ export default function Skillssection(props) {
             <h3>Experience with</h3>
             <SkillsList />
           </div>
+          <hr class="d-block d-md-none " />
+
           <div class="col-md-4 skills-col">
             <h3>Familiar With</h3>
             <SkillEntry text="HTML" alt="html-img" img="res/html.svg" />
             <SkillEntry text="CSS" alt="css-img" img="res/css.svg" />
-
             <SkillEntry text="JavaScript" alt="js-img" img="res/js.svg" />
             <SkillEntry text="Node.js" alt="nodejs-img" img="res/node.svg" />
             <SkillEntry text="React" alt="react-img" img="res/react.svg" />
@@ -31,6 +32,8 @@ export default function Skillssection(props) {
               img="res/mongodb.png"
             />
           </div>
+          <hr class="d-block d-md-none " />
+
           <div class="col-md-4">
             <h3>knowledge in</h3>
             <SkillEntry
