@@ -6,7 +6,7 @@ export default function ProjectEntry(props) {
       <div class="col-md-4">
         <img src={props.img} alt={props.img} class="project-image" />
       </div>
-      <div class="col-md-8 my-text-left">
+      <div class="col-md-8 my-text-left center">
         <strong>
           <h4> {props.title}</h4>
         </strong>
