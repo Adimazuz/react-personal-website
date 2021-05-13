@@ -42,10 +42,8 @@ function Experience_section(props) {
         company="Technion"
         period="2016 - 2020"
         title="Bachlors in Computer Engineering"
-        description=" All The Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
-      id neque aliquam vestibulum morbi. Et ligula ullamcorper malesuada
-      proin libero. In massa tempor nec feugiat nisl pretium fusce."
+        description=" Joint major of Electricity and Computer Science faculties."
+        bullets={["3 Times Dean's excellence", "GPA 84"]}
         location="Haifa"
         img="https://iim.technion.ac.il/wp-content/uploads/2016/08/cat-temp-image.jpg"
       />
