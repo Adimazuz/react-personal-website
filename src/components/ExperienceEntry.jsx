@@ -22,7 +22,7 @@ export default function ExperienceEntry(props) {
           <p class="no-pad-left">{props.description} </p>
           {props.link && (
             <a href={props.link} target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-link icon-margin "> </i>
+              <i class="fas fa-link icon-margin darker-color"> </i>
             </a>
           )}
           <i

@@ -12,9 +12,7 @@ export default function ProjectEntry(props) {
         </strong>
         <p class="no-pad-left">{props.description}</p>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-github fa-2x" color="var(--footer-color)">
-            {" "}
-          </i>
+          <i class="fab fa-github fa-2x darker-color"> </i>
         </a>
       </div>
     </div>
