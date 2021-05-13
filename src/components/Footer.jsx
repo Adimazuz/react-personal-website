@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <div class="my-footer">
+    <div className="my-footer">
       <p>copyright Adi Mazuz and etc</p>
     </div>
   );

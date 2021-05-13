@@ -11,12 +11,12 @@ function AboutSection(props) {
   };
 
   return (
-    <div id="about" class="container my-rounded section" style={div_style}>
+    <div id="about" className="container my-rounded section" style={div_style}>
       <h1>About</h1>
       <img
         src="res/me.jpg"
         alt="Avatar"
-        class="avatar avatar-xs rounded-circle img-thumbnail"
+        className="avatar avatar-xs rounded-circle img-thumbnail"
         style={{
           maxWidth: "15%",
         }}

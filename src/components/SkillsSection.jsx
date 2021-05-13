@@ -9,17 +9,17 @@ export default function Skillssection(props) {
   };
 
   return (
-    <div class="container section my-rounded" style={div_style}>
+    <div className="container section my-rounded" style={div_style}>
       <h1>Skills</h1>
-      <div class="container">
-        <div class="row ">
-          <div class="col-md-4">
+      <div className="container">
+        <div className="row ">
+          <div className="col-md-4">
             <h3>Experience with</h3>
             <SkillsList />
           </div>
-          <hr class="d-block d-md-none " />
+          <hr className="d-block d-md-none " />
 
-          <div class="col-md-4 skills-col">
+          <div className="col-md-4 skills-col">
             <h3>Familiar With</h3>
             <SkillEntry text="HTML" alt="html-img" img="res/html.svg" />
             <SkillEntry text="CSS" alt="css-img" img="res/css.svg" />
@@ -32,9 +32,9 @@ export default function Skillssection(props) {
               img="res/mongodb.png"
             />
           </div>
-          <hr class="d-block d-md-none " />
+          <hr className="d-block d-md-none " />
 
-          <div class="col-md-4">
+          <div className="col-md-4">
             <h3>knowledge in</h3>
             <SkillEntry
               text="Data Structures"

@@ -7,10 +7,10 @@ export default function Skillentry(props) {
 
   return (
     <>
-      <div class="container">
+      <div className="container">
         <div align="left">
           <img
-            class="bullet-logo"
+            className="bullet-logo"
             src={props.img}
             alt={props.alt}
             style={img_style}

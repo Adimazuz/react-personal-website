@@ -2,11 +2,11 @@ function MyNav(props) {
   return (
     <>
       <nav
-        class="navbar navbar-expand-lg navbar-light sticky-top my-nav"
+        className="navbar navbar-expand-lg navbar-light sticky-top my-nav"
         role="navigation"
       >
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -14,35 +14,35 @@ function MyNav(props) {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-center order-2"
+          className="collapse navbar-collapse justify-content-center order-2"
           id="navbarNavAltMarkup"
         >
-          <ul class="navbar-nav  ">
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="#home">
+          <ul className="navbar-nav  ">
+            <li className="nav-item ">
+              <a className="nav-link" aria-current="page" href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-item nav-link " href="#about">
+            <li className="nav-item ">
+              <a className="nav-item nav-link " href="#about">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#experience">
+            <li className="nav-item">
+              <a className="nav-link " href="#experience">
                 Expirence
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#skills">
+            <li className="nav-item">
+              <a className="nav-link " href="#skills">
                 skills
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#projects">
+            <li className="nav-item">
+              <a className="nav-link " href="#projects">
                 Projects
               </a>
             </li>

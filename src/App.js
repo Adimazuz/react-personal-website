@@ -14,21 +14,21 @@ function App() {
 
       <Imagedsection id="home" image="res/bg-image.jpg" />
 
-      <hr class="my-hr" />
+      <hr className="my-hr" />
 
       <AboutSection color="#cbf1f5" />
 
-      <hr class="my-hr" id="experience" />
+      <hr className="my-hr" id="experience" />
 
       <ExperienceSection color="#a6e3e9" />
 
-      <hr class="my-hr" id="skills" />
+      <hr className="my-hr" id="skills" />
 
-      <Skillssection color="#a6e3e9" />
+      <Skillssection color="#cbf1f5" />
 
-      <hr class="my-hr" />
+      <hr className="my-hr" />
 
-      <ProjectsSection color="#cbf1f5" />
+      <ProjectsSection color="#a6e3e9" />
 
       <Footer />
     </div>

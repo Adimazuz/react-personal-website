@@ -3,12 +3,12 @@ import React from "react";
 export default function ExperienceEntry(props) {
   return (
     <>
-      <div class="experience row div-margin">
-        <div class="col-md-1">
-          <img src={props.img} class="logo-image" alt={props.img} />
+      <div className="experience row div-margin">
+        <div className="col-md-1">
+          <img src={props.img} className="logo-image" alt={props.img} />
         </div>
 
-        <div class="col-md-3 center">
+        <div className="col-md-3 center">
           <div>
             <h4>
               <strong>{props.company}</strong>{" "}
@@ -17,16 +17,16 @@ export default function ExperienceEntry(props) {
           </div>
         </div>
 
-        <div class="col-md-8 my-text-left">
+        <div className="col-md-8 my-text-left">
           <strong>{props.title}</strong>
-          <p class="no-pad-left">{props.description} </p>
+          <p>{props.description}</p>
           {props.link && (
             <a href={props.link} target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-link icon-margin darker-color"> </i>
+              <i className="fas fa-link icon-margin darker-color"> </i>
             </a>
           )}
           <i
-            class="fas fa-map-marker-alt icon-margin darker-color"
+            className="fas fa-map-marker-alt icon-margin darker-color"
             color="red"
           ></i>{" "}
           {props.location}
