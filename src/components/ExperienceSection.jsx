@@ -21,6 +21,8 @@ function Experience_section(props) {
         location="Haifa"
         img="res/intel-logo.png"
       />
+      <hr class="d-block d-md-none " />
+
       <ExperienceEntry
         company="Intel"
         period="Aug 2018 - Feb 2021"
@@ -47,6 +49,7 @@ function Experience_section(props) {
         location="Haifa"
         img="https://iim.technion.ac.il/wp-content/uploads/2016/08/cat-temp-image.jpg"
       />
+      <hr class="d-block d-md-none " />
 
       <ExperienceEntry
         company="Technion"

@@ -21,6 +21,7 @@ export default function ProjectsSection(props) {
             link="https://github.com/Adimazuz/AutoRaceCar"
             img="res/auto-racecar.jpeg"
           />
+          <hr class="d-block d-md-none " />
 
           <ProjectEntry
             title="Improved object detection"
@@ -32,6 +33,7 @@ export default function ProjectsSection(props) {
             link="https://github.com/DimaKolt/YoloAndmRCNN"
             img="res/od.png"
           />
+          <hr class="d-block d-md-none " />
 
           <ProjectEntry
             title="This Website"
