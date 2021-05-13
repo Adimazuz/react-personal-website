@@ -17,7 +17,7 @@ export default function Skillssection(props) {
             <h3>Experience with</h3>
             <SkillsList />
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 skills-col">
             <h3>Familiar With</h3>
             <SkillEntry
               text="HTML"

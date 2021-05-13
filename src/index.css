@@ -39,9 +39,6 @@ span {
   margin-bottom: 6px;
 }
 
-/* hr {
-  margin: 2rem;
-} */
 .my-hr {
   border: dotted var(--footer-color) 0.4rem;
   border-bottom: none;
@@ -129,4 +126,8 @@ span {
 .div-margin {
   margin-bottom: 1rem;
   margin-top: 1rem;
+}
+
+.skills-col {
+  align-items: center;
 }

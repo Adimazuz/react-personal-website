@@ -15,7 +15,7 @@ export default function Skillentry(props) {
             alt={props.alt}
             style={img_style}
           />
-          {props.text}
+          <strong>{props.text}</strong>
         </div>
       </div>
     </>
