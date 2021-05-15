@@ -12,7 +12,7 @@ export default function ProjectEntry(props) {
         </strong>
         <p className="no-pad-left">{props.description}</p>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github fa-2x darker-color"> </i>
+          <i className="fab fa-github fa-1x darker-color"> GitHub</i>
         </a>
       </div>
     </div>

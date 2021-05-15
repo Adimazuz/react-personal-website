@@ -12,13 +12,18 @@ function Experience_section(props) {
         company="Intel"
         period="Feb 2021 - Currently"
         title="Software Engineer"
-        description=" All The Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
-      id neque aliquam vestibulum morbi. Et ligula ullamcorper malesuada
-      proin libero. In massa tempor nec feugiat nisl pretium fusce."
+        description=" Developing a python testing framework for intel’s RealSense Technology."
         link="https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html"
         location="Haifa"
         img="res/intel-logo.png"
+        bullets={[
+          ,
+          "Working with a concurrent multithreaded framework",
+          "leading major refactors to code using OOP/Clean code ",
+          "working with agile methodology and conducting code reviews ",
+          "Hands-on experience in Python, Java(Android)",
+          "Experience with Git and CI/CD process",
+        ]}
       />
       <hr className="d-block d-md-none " />
 
@@ -31,7 +36,6 @@ function Experience_section(props) {
           "Tools development using OOP and Clean code methodologies",
           "Redesign of existing tool to be generic and non-project dependent",
           "Hands-on experience in Python, C++ and C#",
-          "Experience with Git and CI/CD process",
         ]}
         location="Haifa"
         link="https://www.intel.com/content/www/us/en/products/docs/io/thunderbolt/thunderbolt-technology-general.html#:~:text=Thunderbolt%E2%84%A2%20ports%20connect%20computers,office%2C%20or%20on%20the%20go."

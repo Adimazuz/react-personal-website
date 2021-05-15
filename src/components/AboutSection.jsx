@@ -23,10 +23,10 @@ function AboutSection(props) {
       />
 
       <p style={p_style}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Massa id neque
-        aliquam vestibulum morbi. Et ligula ullamcorper malesuada proin libero.
+        My name is Adi Mazuz, im a programmer , I recived my Bachlors degree of
+        computer engineering from the Technion.
       </p>
+      <p>i like to code and learn new things</p>
     </div>
   );
 }
