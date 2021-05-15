@@ -17,7 +17,7 @@ export default function Imagedsection(props) {
           <p className="display-6 over-image-text">A Programmer</p>
 
           <a
-            href="../res/CV_Adi_Mazuz_2020_w.pdf"
+            href="../res/CV_Adi_Mazuz_2021_w.pdf"
             download="CV_Adi_Mazuz.pdf"
             className="btn btn-primary my-btn btn-danger my-button "
             rel="noopener noreferrer"

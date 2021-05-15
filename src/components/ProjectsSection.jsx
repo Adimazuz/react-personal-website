@@ -34,9 +34,7 @@ export default function ProjectsSection(props) {
 
           <ProjectEntry
             title="This Website"
-            description="All The Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Massa id neque aliquam vestibulum morbi."
+            description="This website was created with using react, I started this site as a personal project after completing a full-stack course in udemy in which i learnd: HTML, CSS, Bootstrap, JavaScript, Node.js, Databases, Rest-API, React"
             link="https://github.com/Adimazuz/react-personal-website"
             img="res/placeholder.jpeg"
           />
