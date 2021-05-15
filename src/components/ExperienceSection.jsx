@@ -17,7 +17,6 @@ function Experience_section(props) {
         location="Haifa"
         img="res/intel-logo.png"
         bullets={[
-          ,
           "Working with a concurrent multithreaded framework",
           "leading major refactors to code using OOP/Clean code ",
           "working with agile methodology and conducting code reviews ",
