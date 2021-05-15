@@ -141,6 +141,12 @@ h3 {
   border-radius: 50%;
 }
 
+.my-image {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 50%;
+}
+
 .center {
   margin: auto;
 }
