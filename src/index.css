@@ -150,3 +150,7 @@ h3 {
 .center {
   margin: auto;
 }
+
+.dark-on-hover:hover {
+  color: #39a6a3;
+}

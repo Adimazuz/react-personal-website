@@ -25,7 +25,9 @@ export default function ExperienceEntry(props) {
           </p>
           {props.link && (
             <a href={props.link} target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-link icon-margin darker-color"> </i>
+              <i className="fas fa-link icon-margin darker-color dark-on-hover">
+                {" "}
+              </i>
             </a>
           )}
           <i className="fas fa-map-marker-alt icon-margin darker-color"></i>{" "}
