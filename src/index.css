@@ -25,12 +25,13 @@ p {
   padding: 1rem;
   font-size: 0.9rem;
 }
-​ h1 {
+h1 {
   padding: 1rem;
+  font-weight: bold;
 }
 
 h3 {
-  padding: 1remgi;
+  padding: 1rem;
 }
 
 .darker-color {
@@ -72,9 +73,10 @@ h3 {
 }
 
 .project-image {
-  max-width: 17rem;
-  max-height: 15rem;
+  width: 18rem;
+  height: 12rem;
   margin: 2rem;
+  border-radius: 10px;
 }
 
 .section {

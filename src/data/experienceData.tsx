@@ -1,4 +1,3 @@
-import React from "react";
 import {ExperienceInterface} from "../interfaces/expirenceInterface";
 
 export const EXPERIENCE_DATA: ExperienceInterface[] = [

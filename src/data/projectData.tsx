@@ -1,4 +1,3 @@
-import React from "react";
 import {ProjectInterface} from "../interfaces/projectInterface";
 
 export const PROJECTS_DATA: ProjectInterface[] = [
