@@ -2,9 +2,9 @@ import "./App.css";
 import MyNav from "./components/MyNav";
 import Footer from "./components/Footer";
 import Imagedsection from "./components/ImagedSection";
-import ExperienceSection from "./components/ExperienceSection";
-import SkillsSection from "./components/SkillsSection";
-import ProjectsSection from "./components/ProjectsSection";
+import ExperienceSection from "./components/experience/ExperienceSection";
+import SkillsSection from "./components/skills/SkillsSection";
+import ProjectsSection from "./components/projects/ProjectsSection";
 import AboutSection from "./components/AboutSection";
 import React from "react";
 
