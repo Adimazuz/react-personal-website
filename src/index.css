@@ -1,6 +1,6 @@
 :root {
   --body-color: #e3fdfd;
-  --footer-color: #71c9ce;
+  --footer-color: #E7BB41;
 }
 
 body {
@@ -79,8 +79,9 @@ h3 {
 
 .section {
   font-family: "Open Sans";
-  margin-top: "2rem ";
-  margin-bottom: "2rem ";
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 30px;
 }
 
 .exp {
@@ -139,6 +140,8 @@ h3 {
   max-height: 5rem;
   margin: 2rem;
   border-radius: 50%;
+  object-fit: contain;
+
 }
 
 .my-image {

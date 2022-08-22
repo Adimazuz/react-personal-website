@@ -1,10 +1,16 @@
-import React from "react";
 import SkillsList from "./SkillsList";
 import SkillEntry from "./skillEntry";
+import React from "react";
 
-export default function Skillssection(props) {
+interface SkillsSectionProps {
+  color: string
+}
+
+export default function SkillsSection(props : SkillsSectionProps) {
+  const {color} = props;
+
   const div_style = {
-    backgroundColor: props.color,
+    backgroundColor: color,
     padding: "2rem",
   };
 

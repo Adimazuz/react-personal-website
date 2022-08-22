@@ -1,7 +1,7 @@
 import React from "react";
 import SkillEntry from "./skillEntry";
 
-export default function Skillslist(props) {
+export default function Skillslist() {
   return (
     <>
       <SkillEntry

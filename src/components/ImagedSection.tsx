@@ -1,8 +1,16 @@
 import React from "react";
 
-export default function Imagedsection(props) {
+interface ImagedsectionProps {
+  id: string
+  imageSrc: string
+}
+
+export default function Imagedsection(props : ImagedsectionProps) {
+
+  const {id, imageSrc} = props;
+
   const t_style = {
-    backgroundImage: `url(${props.image})`,
+    backgroundImage: `url(${imageSrc})`,
     height: "30rem",
     width: "100%",
     backgroundSize: "cover",
@@ -10,7 +18,7 @@ export default function Imagedsection(props) {
     backgroundPosition: "center",
   };
   return (
-    <div className="container fluid" id={props.id} style={t_style}>
+    <div className="container fluid" id={id} style={t_style}>
       <div className="h-100 row align-items-center ">
         <div className="col">
           <h1 className="display-2 over-image-text">Hi, Im Adi</h1>

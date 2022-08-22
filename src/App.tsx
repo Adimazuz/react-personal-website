@@ -3,16 +3,17 @@ import MyNav from "./components/MyNav";
 import Footer from "./components/Footer";
 import Imagedsection from "./components/ImagedSection";
 import ExperienceSection from "./components/ExperienceSection";
-import Skillssection from "./components/SkillsSection";
+import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 import AboutSection from "./components/AboutSection";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
       <MyNav />
 
-      <Imagedsection id="home" image="res/bg-image.jpg" />
+      <Imagedsection id="home" imageSrc="res/bg-image.jpg" />
 
       <hr className="my-hr" />
 
@@ -20,15 +21,15 @@ function App() {
 
       <hr className="my-hr" id="experience" />
 
-      <ExperienceSection color="#a6e3e9" />
+      <ExperienceSection color="#cbf1f5" />
 
       <hr className="my-hr" id="skills" />
 
-      <Skillssection color="#cbf1f5" />
+      <SkillsSection color="#cbf1f5" />
 
       <hr className="my-hr" />
 
-      <ProjectsSection color="#a6e3e9" />
+      <ProjectsSection color="#cbf1f5" />
 
       <Footer />
     </div>

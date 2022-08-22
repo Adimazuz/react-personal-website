@@ -1,9 +1,15 @@
 import React from "react";
 import ProjectEntry from "./ProjectEntry";
 
-export default function ProjectsSection(props) {
+interface ProjectsSectionProps {
+  color: string
+}
+
+export default function ProjectsSection(props : ProjectsSectionProps) {
+  const {color} = props;
+
   const div_style = {
-    backgroundColor: props.color,
+    backgroundColor: color,
   };
   return (
     <>
@@ -18,7 +24,7 @@ export default function ProjectsSection(props) {
             controlled remotely using TCP/UDP, integrating between different sensors, programed on a
             Linux OS"
             link="https://github.com/Adimazuz/AutoRaceCar"
-            img="res/auto-racecar.jpeg"
+            imageSrc="res/auto-racecar.jpeg"
           />
           <hr className="d-block d-md-none " />
 
@@ -28,7 +34,7 @@ export default function ProjectsSection(props) {
             bounding boxes for object localization using scikit and Deep learning algorithms YOLO/
             Masked-RCNN, creating and preprocessing datasets, analyzing results"
             link="https://github.com/DimaKolt/YoloAndmRCNN"
-            img="res/od.png"
+            imageSrc="res/od.png"
           />
           <hr className="d-block d-md-none " />
 
@@ -36,7 +42,7 @@ export default function ProjectsSection(props) {
             title="This Website"
             description="This website was created with using react, I started this site as a personal project after completing a full-stack course in udemy in which i learnd: HTML, CSS, Bootstrap, JavaScript, Node.js, Databases, Rest-API, React"
             link="https://github.com/Adimazuz/react-personal-website"
-            img="res/placeholder.jpeg"
+            imageSrc="res/placeholder.jpeg"
           />
         </div>
       </div>
