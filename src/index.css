@@ -107,6 +107,10 @@ h3 {
 .my-rounded {
   border-radius: 25px;
 }
+.my-rounded-section {
+  border-radius: 25px;
+  background-color: #cbf1f5;
+}
 
 .my-text-left {
   text-align: left;

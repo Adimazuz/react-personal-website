@@ -21,7 +21,7 @@ function App() {
 
       <hr className="my-hr" id="experience" />
 
-      <ExperienceSection color="#cbf1f5" />
+      <ExperienceSection/>
 
       <hr className="my-hr" id="skills" />
 
@@ -29,7 +29,7 @@ function App() {
 
       <hr className="my-hr" />
 
-      <ProjectsSection color="#cbf1f5" />
+      <ProjectsSection />
 
       <Footer />
     </div>
