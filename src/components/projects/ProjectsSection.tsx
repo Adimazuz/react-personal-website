@@ -7,7 +7,7 @@ import {PROJECTS_DATA} from "../../data/projectData";
 export default function ProjectsSection() {
 
   return (
-      <RoundedSection title={"Projects"} sectionId={"projects"}>
+      <RoundedSection title={"Projects"}>
           <>
             {PROJECTS_DATA.map(project =>
             <>
