@@ -1,5 +1,6 @@
 import React from "react";
 import {ProjectInterface} from "../../interfaces/projectInterface";
+import styles from './projectEntry.module.scss';
 
 interface ProjectEntryProps {
     project: ProjectInterface
@@ -15,11 +16,11 @@ export default function ProjectEntry(props: ProjectEntryProps) {
             </div>
             <div className="col-md-8 my-text-left center">
                 <strong>
-                    <h4> {project.title}</h4>
+                    <div className={styles.title}> {project.title}</div>
                 </strong>
                 <p className="no-pad-left">{project.description}</p>
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github fa-1x darker-color dark-on-hover">
+                    <i className="fab fa-github fa-1x darker-color dark-on-hover projectIcon">
                         {" "}
                         GitHub
                     </i>

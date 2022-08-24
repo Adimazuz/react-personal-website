@@ -1,0 +1,19 @@
+.rowContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo {
+  width: 15%;
+  height: 100%;
+  margin: 0.2rem;
+  margin-right: 50px;
+}
+

@@ -5,16 +5,16 @@ export const EXPERIENCE_DATA: ExperienceInterface[] = [
         company: "Klear",
         period: "Nov 2021 - Currently",
         title: "Full Stack Engineer",
-        description : " Developing web stuff.",
+        description : "Developing the Klear influencer marketing platform. (Web application)",
         link : "https://klear.com/",
         location : "Haifa",
         imgSrc : "data:image/png;base64,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",
         bullets : [
-            "front end",
-            "back end ",
-            "more more ",
-            "hello?",
-            "Experience with Git and CI/CD process"],
+            "Backend development - Node, SQL, Python, PHP",
+            "Frontend development - React, Typescript, REDUX ",
+            "Infrastructur - AWS, terraform",
+            "Code / design reviews."
+        ],
     },
     {
         company : "Intel",

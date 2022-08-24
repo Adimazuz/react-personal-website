@@ -1,33 +1,24 @@
-import React, {CSSProperties} from "react";
+import React from "react";
+import {SkillsInterface} from "../../interfaces/skillsInterface";
+
+import styles from './skillsEntry.module.scss';
 
 interface SkillEntryProps {
-    img: string
-    alt: string
-    text: string
+    skill: SkillsInterface
 }
 
 export default function SkillEntry(props: SkillEntryProps) {
-    const {img, alt, text} = props;
-    const img_style = {
-        marginRight: "0.5rem",
-    };
-
-    const listStyle: CSSProperties = {
-        alignSelf: 'left'
-    }
+    const {skill} = props;
 
     return (
         <>
-            <div className="container">
-                <div style={listStyle}>
+            <div className={styles.row}>
                     <img
-                        className="bullet-logo"
-                        src={img}
-                        alt={alt}
-                        style={img_style}
+                        className={styles.logo}
+                        src={skill.img}
+                        alt={skill.alt}
                     />
-                    <strong>{text}</strong>
-                </div>
+                    <div>{skill.text}</div>
             </div>
         </>
     );

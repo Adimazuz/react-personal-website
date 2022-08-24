@@ -1,6 +1,7 @@
 :root {
   --body-color: #e3fdfd;
-  --footer-color: #E7BB41;
+  --secondery-color: #E7BB41;
+  --footer-color: #598392;
 }
 
 body {
@@ -35,10 +36,15 @@ h3 {
 }
 
 .darker-color {
-  color: var(--footer-color);
+  color: var(--secondery-color);
 }
+
+.projectIcon {
+  font-size: 20px;
+}
+
 .my-hr {
-  border: dotted var(--footer-color) 0.4rem;
+  border: dotted var(--secondery-color) 0.4rem;
   border-bottom: none;
   background-color: transparent;
   width: 15%;
@@ -73,8 +79,8 @@ h3 {
 }
 
 .project-image {
-  width: 18rem;
-  height: 12rem;
+  max-width: 18rem;
+  max-height: 12rem;
   margin: 2rem;
   border-radius: 10px;
 }
@@ -144,7 +150,7 @@ h3 {
 .logo-image {
   max-width: 5rem;
   max-height: 5rem;
-  margin: 2rem;
+  margin-left: 2rem;
   border-radius: 50%;
   object-fit: contain;
 

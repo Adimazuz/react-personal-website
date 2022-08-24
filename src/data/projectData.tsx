@@ -2,6 +2,12 @@ import {ProjectInterface} from "../interfaces/projectInterface";
 
 export const PROJECTS_DATA: ProjectInterface[] = [
     {
+        title: "Sammy Offer Game Alerts",
+        description: "sends push notifications on days which hold games, writing in Java (find it on the Play store)",
+        link: "https://github.com/Adimazuz/SamiOferGames",
+        imageSrc: "https://play-lh.googleusercontent.com/j5Q_4WWhqacFdR7zAFyfPnc-e_GAdXye-Cy3DpLwPeQ1pKZ63jJyp2Rbxyv9XRy2YYM=w240-h480-rw"
+    },
+    {
         title: "Auto RaceCar",
         description: " C++ based project, ground up architecture, Using Arduino for " +
             "sensors control, definition and implementation of communication and control APIs," +

@@ -25,7 +25,7 @@ function App() {
 
       <hr className="my-hr" id="skills" />
 
-      <SkillsSection color="#cbf1f5" />
+      <SkillsSection/>
 
       <hr className="my-hr" id="projects"/>
 

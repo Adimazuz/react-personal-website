@@ -14,6 +14,7 @@ function AboutSection(props: AboutSectionProps) {
     const p_style = {
         margin: "0%",
         padding: "1 rem",
+        fontSize: "18px"
     };
 
     return (
@@ -25,7 +26,7 @@ function AboutSection(props: AboutSectionProps) {
                 My name is Adi Mazuz, im a programmer , I recived my Bachlors degree of
                 computer engineering from the Technion.
             </p>
-            <p>i like to code and learn new things</p>
+            <p style={p_style}> I like Coding, Gaming and Anime 💻</p>
         </div>
     );
 }

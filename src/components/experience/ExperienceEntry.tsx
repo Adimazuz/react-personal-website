@@ -1,5 +1,6 @@
 import React from "react";
 import {ExperienceInterface} from "../../interfaces/expirenceInterface";
+import styles from './ExpirenceEntry.module.scss';
 
 export interface ExperienceEntryProps {
     experience: ExperienceInterface
@@ -10,17 +11,16 @@ export default function ExperienceEntry(props: ExperienceEntryProps) {
 
     return (
         <>
-            <div className="experience row div-margin">
+            <div className={`experience row div-margin ${styles.center}`}>
                 <div className="col-md-1">
                     <img src={experience.imgSrc} className="logo-image" alt={experience.imgSrc}/>
                 </div>
-
-                <div className="col-md-3 center">
+                <div className="col-md-2 center">
                     <div>
-                        <h4>
+                        <div>
                             <strong>{experience.company}</strong>{" "}
-                        </h4>
-                        <p>{experience.period} </p>
+                        </div>
+                        <div>{experience.period} </div>
                     </div>
                 </div>
 
