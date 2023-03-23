@@ -1,4 +1,6 @@
-function MyNav(props) {
+import React from "react";
+
+function MyNav() {
   return (
     <>
       <nav
