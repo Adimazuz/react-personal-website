@@ -15,16 +15,12 @@ export default function ProjectEntry(props: ProjectEntryProps) {
                 <img src={project.imageSrc} alt={project.imageSrc} className="project-image"/>
             </div>
             <div className="col-md-8 my-text-left center">
-                <strong>
-                    <div className={styles.title}> {project.title}</div>
-                </strong>
-                <p className="no-pad-left">{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github fa-1x darker-color dark-on-hover projectIcon">
-                        {" "}
-                        GitHub
-                    </i>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.titleLink}>
+                    <strong>
+                        <div className={`${styles.title} dark-on-hover`}> {project.title}</div>
+                    </strong>
                 </a>
+                <p className="no-pad-left">{project.description}</p>
             </div>
         </div>
     );

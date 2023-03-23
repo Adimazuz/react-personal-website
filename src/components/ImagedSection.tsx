@@ -24,14 +24,14 @@ export default function Imagedsection(props : ImagedsectionProps) {
           <h1 className="display-2 over-image-text">Hi, Im Adi</h1>
           <p className="display-6 over-image-text">A Programmer</p>
 
-          <a
-            href="../res/CV_Adi_Mazuz_2021_w.pdf"
-            download="CV_Adi_Mazuz.pdf"
-            className="btn btn-primary my-btn btn-danger my-button "
-            rel="noopener noreferrer"
-          >
-            <i className="far fa-file-alt"></i> My CV
-          </a>
+          {/*<a*/}
+          {/*  href="../res/CV_Adi_Mazuz_2021_w.pdf"*/}
+          {/*  download="CV_Adi_Mazuz.pdf"*/}
+          {/*  className="btn btn-primary my-btn btn-danger my-button "*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>*/}
+          {/*  <i className="far fa-file-alt"></i> My CV*/}
+          {/*</a>*/}
 
           <a
             href="https://www.linkedin.com/in/adi-mazuz/"
