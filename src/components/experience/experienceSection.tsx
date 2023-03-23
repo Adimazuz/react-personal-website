@@ -1,6 +1,6 @@
 import React from "react";
 
-import ExperienceEntry from "./ExperienceEntry";
+import ExperienceEntry from "./experienceEntry";
 import {EXPERIENCE_DATA} from "../../data/experienceData";
 import RoundedSection from "../roundedSection/RoundedSection";
 

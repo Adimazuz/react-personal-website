@@ -1,6 +1,6 @@
 import React from "react";
 import {ExperienceInterface} from "../../interfaces/expirenceInterface";
-import styles from './ExpirenceEntry.module.scss';
+import styles from './expirenceEntry.module.scss';
 
 export interface ExperienceEntryProps {
     experience: ExperienceInterface
